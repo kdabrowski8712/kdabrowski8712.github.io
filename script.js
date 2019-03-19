@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'https://obscure-sea-32382.herokuapp.com/v1/tasks/';
+  const apiRoot = 'http://obscure-sea-32382.herokuapp.com/v1/tasks/';
   const trelloApiRoot = 'http://obscure-sea-32382.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
